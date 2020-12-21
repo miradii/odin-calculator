@@ -8,28 +8,29 @@
   </head>
   <body>
     <div class="main">
-      <div class="display"></div>
+      <div class="display" id="display">0</div>
       <div class="button-container">
-        <div class="button" data-type="modifier">C</div>
+        <div class="button" id="clear" data-type="modifier">AC</div>
         <div class="button" data-type="modifier">±</div>
         <div class="button" data-type="modifier">%</div>
-        <div class="button" data-type="operator">÷</div>
+        <div class="button" data-type="operator" data-op="÷">÷</div>
         <div class="button" data-type="number">7</div>
         <div class="button" data-type="number">8</div>
         <div class="button" data-type="number">9</div>
-        <div class="button" data-type="operator">×</div>
+        <div class="button" data-type="operator" data-op="×">×</div>
         <div class="button" data-type="number">4</div>
         <div class="button" data-type="number">5</div>
         <div class="button" data-type="number">6</div>
-        <div class="button" data-type="operator">-</div>
+        <div class="button" data-type="operator" data-op="-">-</div>
         <div class="button" data-type="number">1</div>
         <div class="button" data-type="number">2</div>
         <div class="button" data-type="number">3</div>
-        <div class="button" data-type="operator">+</div>
+        <div class="button" data-type="operator" data-op="+">+</div>
         <div class="button" data-type="number" id="zero">0</div>
-        <div class="button" data-type="decimal">.</div>
+        <div class="button" data-type="number">.</div>
         <div class="button" data-type="operator">=</div>
       </div>
     </div>
   </body>
+  <script src="calc.js"></script>
 </html>
